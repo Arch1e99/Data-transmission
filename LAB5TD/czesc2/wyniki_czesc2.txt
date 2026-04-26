@@ -1,0 +1,23 @@
+wyniki szerokosci pasma - lab 05 (czesc 2)
+
+modulacja amplitudy (am)
+[am] ka =  0.5 | alfa =  0.5 hz | r_alfa =  88.89% | pasmo b =  1.0 hz
+[am] ka =    5 | alfa =  2.0 hz | r_alfa = 100.00% | pasmo b =  4.0 hz
+[am] ka =   25 | alfa =  2.0 hz | r_alfa = 100.00% | pasmo b =  4.0 hz
+
+modulacja fazy (pm)
+[pm] kp =  0.5 | alfa =  0.5 hz | r_alfa =  88.07% | pasmo b =  1.0 hz
+[pm] kp =    2 | alfa =  3.5 hz | r_alfa =  83.98% | pasmo b =  7.0 hz
+[pm] kp =    8 | alfa = 14.0 hz | r_alfa =  85.93% | pasmo b = 28.0 hz
+
+modulacja czestotliwosci (fm)
+[fm] kf =  0.5 | alfa =  0.5 hz | r_alfa =  96.91% | pasmo b =  1.0 hz
+[fm] kf =    2 | alfa =  2.0 hz | r_alfa =  97.28% | pasmo b =  4.0 hz
+[fm] kf =    8 | alfa =  6.0 hz | r_alfa =  80.17% | pasmo b = 12.0 hz
+
+
+modulacja am: aby objac wiekszosc uzytecznej energii sygnalu am, wystarczy bardzo waskie pasmo. dla ka = 5 oraz ka = 25 okno o szerokosci zaledwie 4 hz zlapalo az 100% zdefiniowanej mocy, co po raz kolejny potwierdza bardzo waskopasmowy charakter klasycznej modulacji amplitudy.
+
+modulacje katowe (pm i fm): ze wzrostem wspolczynnikow (kp, kf) energia sygnalu ulega silnemu rozproszeniu. aby uzbierac wymagane 80% energii dla kp = 8, algorytm musial poszerzyc okno az do 28 hz (dla kf = 8 do 12 hz). dowodzi to, ze szerokopasmowe modulacje fazy i czestotliwosci wymagaja znacznie wiekszych zasobow w kanale transmisyjnym.
+
+bardzo slaba modulacja: dla najnizszych badanych wspolczynnikow (k = 0.5) niezaleznie od typu modulacji, niemal cala moc zostaje w fali nosnej. dla am i pm jest to ok. 88% energii, a dla fm az 96.91% energii w pasmie o szerokosci zaledwie 1 hz. oznacza to niska efektywnosc.

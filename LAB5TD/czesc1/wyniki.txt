@@ -1,0 +1,23 @@
+wyniki szerokosci pasma - lab 05 (czesc 1)
+
+modulacja amplitudy (am)
+[am] ka =  0.5 | b_3db =    0 hz | b_6db =    0 hz | b_10db =    0 hz
+[am] ka =    5 | b_3db =    4 hz | b_6db =    4 hz | b_10db =    4 hz
+[am] ka =   25 | b_3db =    4 hz | b_6db =    4 hz | b_10db =    4 hz
+
+modulacja fazy (pm)
+[pm] kp =  0.5 | b_3db =    0 hz | b_6db =    0 hz | b_10db =    0 hz
+[pm] kp =    2 | b_3db =    4 hz | b_6db =    8 hz | b_10db =    8 hz
+[pm] kp =    8 | b_3db =   28 hz | b_6db =   32 hz | b_10db =   36 hz
+
+modulacja czestotliwosci (fm)
+[fm] kf =  0.5 | b_3db =    0 hz | b_6db =    0 hz | b_10db =    0 hz
+[fm] kf =    2 | b_3db =    0 hz | b_6db =    4 hz | b_10db =    4 hz
+[fm] kf =    8 | b_3db =   12 hz | b_6db =   16 hz | b_10db =   16 hz
+
+
+modulacja am: szerokosc pasma jest stala i wynosi 4 hz dla wyzszych wartosci wspolczynnika ka (5 i 25). potwierdza to zaleznosc, ze pasmo am zalezy tylko od czestotliwosci sygnalu modulujacego (fm = 2 hz, wiec pasmo to 2 * fm = 4 hz), a nie od samego wspolczynnika ka. dla bardzo malego ka (0.5) prazki boczne sa tak slabe, ze nie przekraczaja badanego progu (pasmo 0 hz).
+
+modulacje katowe (pm i fm): w przeciwienstwie do am, tutaj szerokosc pasma gwaltownie rosnie wraz ze wzrostem wspolczynnikow kp oraz kf. im silniejsza modulacja, tym wiecej prazkow bocznych osiaga znaczace amplitudy. dla kp = 8 pasmo b_10db rozszerza sie az do 36 hz.
+
+roznice w progach: im wiekszy dopuszczalny spadek analizujemy (np. b_10db wzgledem b_3db), tym wyznaczone pasmo jest szersze (np. dla pm kp=8 pasmo rosnie z 28 hz do 36 hz). uwzgledniamy wtedy coraz bardziej odlegle i coraz slabsze prazki boczne.

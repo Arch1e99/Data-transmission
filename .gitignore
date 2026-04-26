@@ -1,0 +1,14 @@
+
+*
+
+!*/
+
+!.gitignore
+
+!*.rs
+
+!*.png
+
+!*.txt
+
+!README.md
