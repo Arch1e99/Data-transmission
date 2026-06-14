@@ -9,6 +9,10 @@
 
 !*.png
 
+!*.csv
+
 !*.txt
+
+!*.py
 
 !README.md
